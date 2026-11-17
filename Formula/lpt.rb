@@ -1,28 +1,28 @@
 class Lpt < Formula
   desc "Submit and manage Light Phone tools from the terminal (unofficial)"
   homepage "https://github.com/sevgjan/light-cli"
-  version "0.1.0"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sevgjan/light-cli/releases/download/v0.1.0/lpt-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "915e75ea393f9d6ecb4d26abba2354a04d3c2f285be6b7e68ffd4260d2044a1b"
+      url "https://github.com/sevgjan/light-cli/releases/download/v0.1.2/lpt-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "9bb9ded887c520d15100d127a642db5c0a0794edcf7902b7bd2e174c388c52a9"
     end
     on_intel do
-      url "https://github.com/sevgjan/light-cli/releases/download/v0.1.0/lpt-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d8a3263ecb193bd2cf31774f8c3b57f27d18a8d4b259e4f4872259a990a99629"
+      url "https://github.com/sevgjan/light-cli/releases/download/v0.1.2/lpt-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "48c5f65c31d6f8d990220d31a023be774063b8b4460042f52aa354b9e5390cf1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sevgjan/light-cli/releases/download/v0.1.0/lpt-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a78c7f6b291c9e9839d6f39b40b325138f02e366be005a810671ffba2cd96812"
+      url "https://github.com/sevgjan/light-cli/releases/download/v0.1.2/lpt-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "934c697755ee8a549e12a3a0d7a0a15467c9ab5223cb8845489e45ef9f53ea33"
     end
     on_intel do
-      url "https://github.com/sevgjan/light-cli/releases/download/v0.1.0/lpt-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2332b0bbdc074f37371a74131d8dbf07fa322cdebf8337d97fcc99cc8efde12a"
+      url "https://github.com/sevgjan/light-cli/releases/download/v0.1.2/lpt-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6518d1e6bd233e8be49d9986a5daf30134196c3647dce763491770afa1160ab7"
     end
   end
 
